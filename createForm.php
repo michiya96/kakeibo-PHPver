@@ -20,6 +20,7 @@
       </nav>
     </header>
 
+//　create.phpに飛ぶ
     <form class="m-5" action="./create.php" method="POST">
       <p class="alert alert-primary" role="alert">新規追加フォーム</p>
       <div class="form-group">

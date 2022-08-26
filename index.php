@@ -38,7 +38,7 @@ include_once('./functions.php');
   <div class="container">
     <header class="mb-5">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.php">かけいぼ</a>
+        <a class="navbar-brand" href="index.php">家計簿</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -78,7 +78,7 @@ include_once('./functions.php');
   <td class="col-2"><?php echo h($record['type'])==1? h($record['amount']):'' ?> </td>
   <td class="col-3">
     <a href="./editForm.php?id=<?php echo h($record['id'])?>" class="btn btn-success text-light">編集</a>
-    <a href="./delete.php" class="btn btn-danger text-light">削除</a>
+    <a href="./delete.php?id=<?php echo h($record['id'])?>" class="btn btn-danger text-light">削除</a>
   </td>
 </tr>
 

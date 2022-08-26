@@ -13,14 +13,14 @@
   <div class="container">
     <header class="mb-5">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.php">かけいぼ</a>
+        <a class="navbar-brand" href="index.php">家計簿</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
     </header>
 
-//　create.phpに飛ぶ
+
     <form class="m-5" action="./create.php" method="POST">
       <p class="alert alert-primary" role="alert">新規追加フォーム</p>
       <div class="form-group">
